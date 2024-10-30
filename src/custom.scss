@@ -1,0 +1,21 @@
+// my custom variables
+$primary: #f5853f;
+$secondary: #b2ffa9;
+$dark: #1d1d1d;
+$light: #fbf9f8;
+$gray: #d6d5d2;
+
+// import bootstrap functions and variables
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+
+// my custom theme map
+$myCustomThemMap: (
+  "darker": #171717,
+);
+
+// merge my custom theme map with bootstrap theme map
+$theme-colors: map-merge($theme-colors, $myCustomThemMap);
+
+// import bootstrap.scss (to me ==> note this import should be after the custom variables)
+@import "../node_modules//bootstrap/scss/bootstrap";
