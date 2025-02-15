@@ -2,7 +2,7 @@
 
 tvFlix is a React application that allows users to browse and search for TV shows, get details on individual shows, The app leverages APIs to pull dynamic show data and provides an interactive user experience with smooth navigation and state management using Redux.
 
-- [LIVE DEMO](https://tvflix.vercel.app/)
+- [LIVE DEMO](https://tvflix-opal.vercel.app/)
 
 ## Features
 
